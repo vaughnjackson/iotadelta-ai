@@ -18,7 +18,9 @@ const nextConfig = {
   },
   // Enable static + server hybrid rendering
   experimental: {
-    serverActions: true,
+    serverActions: {
+      bodySizeLimit: '2mb'
+    }
   }
 };
 
