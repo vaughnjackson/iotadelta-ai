@@ -1,6 +1,6 @@
 export default function Resources() {
   return (
-    <main className="min-h-screen bg-gray-900 text-white p-8">
+    <main className="min-h-screen bg-gray-900 text-white p-8 pt-16">
       <section className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold">Resources</h1>
         <ul className="mt-6 space-y-4">

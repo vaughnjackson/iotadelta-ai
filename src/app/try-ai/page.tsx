@@ -16,7 +16,7 @@ export default function TryAI() {
   };
 
   return (
-    <main className="min-h-screen bg-gray-900 text-white p-8">
+    <main className="min-h-screen bg-gray-900 text-white p-8 pt-16">
       <section className="max-w-3xl mx-auto">
         <h1 className="text-3xl font-bold">Try AI</h1>
         <p className="mt-4">What's one thing to improve?</p>

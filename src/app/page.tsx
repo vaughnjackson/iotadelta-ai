@@ -3,7 +3,7 @@ import { sanityClient } from '@/lib/sanityClient';
 export default async function Home() {
   const nudge = await sanityClient.fetch(`*[_type == "blog"][0].nudge`);
   return (
-    <main className="min-h-screen bg-gray-900 text-white p-8">
+    <main className="min-h-screen bg-gray-900 text-white p-8 pt-16">
       <section className="max-w-3xl mx-auto">
         <h1 className="text-4xl font-bold">Small AI Changes, Giant Life Impact</h1>
         <p className="mt-4 text-lg">AI's not just tech—it's your nudge to a better you.</p>
